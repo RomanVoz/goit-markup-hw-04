@@ -1,0 +1,215 @@
+:root {
+    --main-bg-color: #F5F5F5;
+    --bg-color: #2F303A;
+    --text-color: #212121;
+    --text-color-general: #ffffff;
+    --hover-color: #2196F3;
+    --contact-color: #757575;
+    --logo-font: "Raleway", sans-serif;
+    --general-font: "Roboto", sans-serif;
+    --active-botton: #188CE8;
+    
+
+}
+
+body {
+    font-family: var(--general-font);
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.fon {
+    background-color: #FFFFFF;
+}
+
+.logo {
+    color: #000000;
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.web {
+    color: #2196F3  
+}
+
+.link-nav {
+    font-family: var(--general-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.link-nav:focus,
+.link-nav:hover {
+    cursor: pointer;
+    color: var(--hover-color);
+}
+
+.contact {
+ color: var(--contact-color);
+ font-family: var(--general-font);
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--hover-color);
+}
+
+.main-block {
+    background-color: var(--bg-color);
+}
+
+.general-title {
+    text-transform: uppercase;
+    font-family: var(--general-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--text-color-general);
+}
+
+.bt-order {
+    background-color: var(--hover-color);
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--text-color-general);
+}
+
+.bt-order:hover,
+.bt-order:focus {
+    background-color: var(--active-botton);
+}
+
+.perevagy {
+    text-transform: uppercase;
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.perevagy-info {
+    font-family: var(--general-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
+
+.title-block {
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.people-name {
+    font-family: var(--general-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.people-work {
+    font-family: var(--general-font);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
+
+.logo-footer {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color-general);
+}
+
+.fon-footer {
+    background-color: var(--bg-color);
+}
+
+.map-link {
+    font-family: var(--general-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color-general);
+}
+
+.contact-footer {
+    font-family: var(--general-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filter {
+    font-family: var(--general-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.filter:hover,
+.filter:focus {
+    cursor: pointer;
+    font-family: var(--general-font);
+    background-color: var(--hover-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color-general);
+}
+
+.work-name {
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-color);
+}
+
+.category {
+    font-family: var(--general-font);
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
