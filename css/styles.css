@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -28,7 +28,6 @@ body {
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
 }
 
 a {
@@ -41,6 +40,8 @@ a {
 }
 
 .logo {
+    margin-left: 215px;
+
     color: #000000;
     font-family: var(--logo-font);
     font-weight: 700;
@@ -53,7 +54,28 @@ a {
     color: #2196F3  
 }
 
-.link-nav {
+.site-nav {
+    display: flex;
+    margin-left: 93px;
+}
+
+.item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.site-nav .item + .item {
+    margin-left: 50px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav .link-nav {
+    display: block;
     font-family: var(--general-font);
     font-weight: 500;
     font-size: 14px;
@@ -68,12 +90,12 @@ a {
 }
 
 .contact {
- color: var(--contact-color);
- font-family: var(--general-font);
- font-weight: 500;
- font-size: 14px;
- line-height: 1.14;
- letter-spacing: 0.02em;
+    color: var(--contact-color);
+    font-family: var(--general-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contact:hover,
@@ -81,11 +103,15 @@ a {
     color: var(--hover-color);
 }
 
+.contact-all {
+    margin-left: auto;
+    display: flex;
+}
+
 .hero {
     background-color: var(--bg-color);
     text-align: center;
 }
-
 .hero-title {
     margin-top: 0px;
     margin-bottom: 30px;
@@ -134,7 +160,7 @@ a {
 }
 
 .perevagy-img {
-    margin: 95px 30px 30px 30px;
+    margin: 94px 30px 30px 30px;
 }
 
 .perevagy-info {
@@ -144,7 +170,7 @@ a {
     letter-spacing: 0.03em;
     color: var(--contact-color);
     margin: 0;
-    margin-bottom: 95px;
+    margin-bottom: 94px;
 }
 
 .title-block {
@@ -154,6 +180,30 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.work-img {
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
+
+.team-img{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.team-block {
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 94px;
 }
 
 .people-name {
