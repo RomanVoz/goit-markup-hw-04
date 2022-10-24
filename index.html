@@ -4,85 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Студія</title>
 </head>
 <body>
     <header class="fon">
-        <nav>
-        <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
-            <ul>
-                <li><a class="link-nav" href="./index.html">Студія</a></li>
-                <li><a class="link-nav" href="./portfolio.html">Портфоліо</a></li>
-                <li><a class="link-nav" href="./index.html">Контакти</a></li>
+        <div class="container header-container">
+            <nav class="header-container">
+            <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
+                <ul class="header-container link-header">
+                    <li><a class="link-nav" href="./index.html">Студія</a></li>
+                    <li><a class="link-nav" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="link-nav" href="./index.html">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul class="header-container link-header header-contact">
+                <li><a class="contact contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
-        <section class="main-block">
-            <h1 class="general-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="bt-order" type="button">Замовити послугу</button>
+        <section class="main-block section">
+            <div class="container main-section">
+                <h1 class="general-title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="bt-order" type="button">Замовити послугу</button>
+            </div>
         </section>
-        <section>
+        <section class="section container">
             <h2 hidden> Переваги</h2>
-            <ul>
-                <li>
+            <ul class="Feature">
+                <li class="feature-main">
+                    <img class="perevagy-img" src="./img/uvaga.jpg" alt="Увага" width="270">
                     <h3 class="perevagy">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="perevagy-info">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
-                <li>
+                <li class="feature-main">
+                    <img class="perevagy-img" src="./img/time.jpg" alt="ПУНКТУАЛЬНІСТЬ" width="270">
                     <h3 class="perevagy">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="perevagy-info">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li>
+                <li class="feature-main">
+                    <img class="perevagy-img" src="./img/plany.jpg" alt="Планування" width="270">
                     <h3 class="perevagy">ПЛАНУВАННЯ</h3>
                     <p class="perevagy-info">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li>
+                <li class="feature-main">
+                    <img class="perevagy-img" src="./img/technologis.jpg" alt="ТЕХНОЛОГІЇ" width="270">
                     <h3 class="perevagy">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p class="perevagy-info">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="section container">
             <h2 class="title-block">Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./img/kod.jpg" alt="код" width="370"></li>
-            </ul>
-            <ul>
-                <li><img src="./img/phone.jpg" alt="телефон" width="370"></li>
-            </ul>
-            <ul>
-                <li><img src="./img/tablet.jpg" alt="планшет" width="370"></li>
-            </ul>
+            <div class="work-us">
+                <ul class="work-img">
+                    <li><img src="./img/kod.jpg" alt="код" width="370"></li>
+                </ul>
+                <ul class="work-img">
+                    <li><img src="./img/phone.jpg" alt="телефон" width="370"></li>
+                </ul>
+                <ul class="work-img">
+                    <li><img src="./img/tablet.jpg" alt="планшет" width="370"></li>
+                </ul>
+            </div>
         </section>
-        <section>
+        <section class="section container team">
             <H2 class="title-block">Наша команда</H2>
-            <ul>
+            <ul class="team-people">
                 <li>
                     <img src="./img/demiyanenko.jpg" alt="Ігор Дем'яненко" width="260">
                     <p class="people-name">Ігор Дем'яненко</p>
                     <p class="people-work">Product Designer</p>
+                    <img class="social-link" src="./img/social/insta.png" alt="Инстаграм">
+                    <img class="social-link" src="./img/social/twitter.png" alt="твиттер">
+                    <img class="social-link" src="./img/social/facebook.png" alt="фейсбук">
+                    <img class="social-link" src="./img/social/linkedin.png" alt="линкедин">
                 </li>
                 <li>
                     <img src="./img/repina.jpg" alt="Ольга Рєпіна" width="260">
                     <p class="people-name">Ольга Рєпіна</p>
                     <p class="people-work">Frontend Developer</p>
+                    <img class="social-link" src="./img/social/insta.png" alt="Инстаграм">
+                    <img class="social-link" src="./img/social/twitter.png" alt="твиттер">
+                    <img class="social-link" src="./img/social/facebook.png" alt="фейсбук">
+                    <img class="social-link" src="./img/social/linkedin.png" alt="линкедин">
                 </li>
                 <li>
                     <img src="./img/tarasov.jpg" alt="Микола Тарасов" width="260">
                     <p class="people-name">Микола Тарасов</p>
                     <p class="people-work">Marketing</p>
+                    <img class="social-link" src="./img/social/insta.png" alt="Инстаграм">
+                    <img class="social-link" src="./img/social/twitter.png" alt="твиттер">
+                    <img class="social-link" src="./img/social/facebook.png" alt="фейсбук">
+                    <img class="social-link" src="./img/social/linkedin.png" alt="линкедин">
                 </li>
                 <li>
                     <img src="./img/ermakov.jpg" alt="Михайло Єрмаков" width="260">
                     <p class="people-name">Михайло Єрмаков</p>
                     <p class="people-work">UI Designer</p>
+                    <img class="social-link" src="./img/social/insta.png" alt="Инстаграм">
+                    <img class="social-link" src="./img/social/twitter.png" alt="твиттер">
+                    <img class="social-link" src="./img/social/facebook.png" alt="фейсбук">
+                    <img class="social-link" src="./img/social/linkedin.png" alt="линкедин">
                 </li>
             </ul>
         </section>

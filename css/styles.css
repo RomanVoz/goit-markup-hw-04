@@ -12,6 +12,20 @@
 
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 body {
     font-family: var(--general-font);
     color: var(--text-color);
@@ -25,12 +39,24 @@ a {
     color: var(--text-color);
     text-decoration: none;
 }
-
+      
 .fon {
     background-color: #FFFFFF;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding-bottom: 94px;
+}
+
 .logo {
+    margin-right: 93px;
+
     color: #000000;
     font-family: var(--logo-font);
     font-weight: 700;
@@ -39,8 +65,26 @@ a {
     letter-spacing: 0.03em;
 }
 
+
 .web {
     color: #2196F3  
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.link-header {
+   padding: 0;
+}
+
+.link-nav {
+    display: block;
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .link-nav {
@@ -57,6 +101,10 @@ a {
     color: var(--hover-color);
 }
 
+.header-contact {
+    margin-left: auto;
+}
+
 .contact {
  color: var(--contact-color);
  font-family: var(--general-font);
@@ -71,11 +119,17 @@ a {
     color: var(--hover-color);
 }
 
+.contact-mail {
+    margin-right: 40px;
+}
+
 .main-block {
     background-color: var(--bg-color);
 }
 
 .general-title {
+    margin: 0;
+
     text-transform: uppercase;
     font-family: var(--general-font);
     font-weight: 900;
@@ -86,6 +140,13 @@ a {
 }
 
 .bt-order {
+    margin: 30px 692px 200px 692px;
+    min-width: 216px;
+
+    border:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
     background-color: var(--hover-color);
     font-family: var(--general-font);
     font-weight: 700;
@@ -100,7 +161,26 @@ a {
     background-color: var(--active-botton);
 }
 
+.Feature {
+    display: flex;
+    padding: 0;
+    padding-top: 94px;
+    margin: 0;
+}
+
+.feature-main:not(:last-child) {
+    margin-right: 30px;
+}
+
+.perevagy-img {
+    margin-bottom: 30px;
+}
+
 .perevagy {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+
     text-transform: uppercase;
     font-family: var(--general-font);
     font-weight: 700;
@@ -112,6 +192,9 @@ a {
 }
 
 .perevagy-info {
+    margin: 0;
+    padding: 0;
+
     font-family: var(--general-font);
     font-size: 14px;
     line-height: 1.71;
@@ -119,7 +202,17 @@ a {
     color: var(--contact-color);
 }
 
+.team {
+    background-color: #F5F4FA;
+}
+
 .title-block {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    padding-top: 94px;
+
     font-family: var(--general-font);
     font-weight: 700;
     font-size: 36px;
@@ -128,7 +221,23 @@ a {
     color: var(--text-color);
 }
 
+.work-us {
+    display: flex;
+}
+
+.work-img {
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.team-people {
+    display: flex;
+}
+
 .people-name {
+    text-align: center;
+
     font-family: var(--general-font);
     font-weight: 500;
     font-size: 16px;
@@ -138,11 +247,17 @@ a {
 }
 
 .people-work {
+    text-align: center;
+    
     font-family: var(--general-font);
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--contact-color);
+}
+
+.social-link:not(:last-child) {
+    margin-right: 10px;
 }
 
 .logo-footer {
