@@ -231,8 +231,15 @@ a {
     margin-right: 30px;
 }
 
+.fon-people {
+    margin-right: 30px;
+    background-color: var(--text-color-general);
+}
+
 .team-people {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .people-name {
@@ -256,8 +263,26 @@ a {
     color: var(--contact-color);
 }
 
+.social-link-decor {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .social-link:not(:last-child) {
     margin-right: 10px;
+}
+
+.our-clients {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.clients {
+    margin-right: 30px;
 }
 
 .logo-footer {
@@ -271,6 +296,11 @@ a {
 
 .fon-footer {
     background-color: var(--bg-color);
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
 }
 
 .map-link {
