@@ -40,10 +40,6 @@ h1,h2,h3,h4,h5,h6 {
 
 ul {
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 a {
@@ -190,10 +186,6 @@ a {
     margin-right: 30px;
 }
 
-.perevagy-img {
-    margin-bottom: 30px;
-}
-
 .perevagy {
     margin: 0;
     margin-bottom: 10px;
@@ -281,22 +273,8 @@ a {
     color: var(--contact-color);
 }
 
-.social-link-decor {
-    display: block;
-    margin-bottom: 30px;
-    margin-top: 16px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
 .social-link:not(:last-child) {
     margin-right: 10px;
-}
-
-.our-clients {
-    display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 .clients {
@@ -304,6 +282,9 @@ a {
 }
 
 .logo-footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
     font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
@@ -322,6 +303,8 @@ a {
 }
 
 .map-link {
+    margin-bottom: 9px;
+
     font-family: var(--general-font);
     font-size: 14px;
     line-height: 1.71;
@@ -330,25 +313,13 @@ a {
 }
 
 .contact-footer {
+    margin-bottom: 9px;
+
     font-family: var(--general-font);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-social {
-    display: flex;
-}
-
-.go-us {
-    font-family: var(--general-font);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--text-color-general);
 }
 
 .filter-price {
