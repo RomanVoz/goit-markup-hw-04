@@ -91,7 +91,8 @@ img {
 }
 
 .header-container-line {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+
 }
 
 .link-header {
@@ -100,16 +101,12 @@ img {
    margin-bottom: 0;
 }
 
-/* .link-nav-header {
-    margin-top: 32px;
-    margin-bottom: 32px;
-} */
-
 .link-nav-header:not(:last-child) {
     margin-right: 50px;
 }
 
 .link-nav {
+    display: block;
     padding: 32px 0;
 
     font-family: var(--general-font);
@@ -424,10 +421,6 @@ img {
     padding: 0;
 }
 
-.our-work-list {
-    margin-bottom: 30px;
-}
-
 .gorup-work {
     margin: 0;
     padding: 20px 24px;
@@ -457,4 +450,5 @@ img {
     letter-spacing: 0.03em;
     color: var(--contact-color);
 }
+
 
