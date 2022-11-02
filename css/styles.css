@@ -100,10 +100,10 @@ img {
    margin-bottom: 0;
 }
 
-.link-nav-header {
+/* .link-nav-header {
     margin-top: 32px;
     margin-bottom: 32px;
-}
+} */
 
 .link-nav-header:not(:last-child) {
     margin-right: 50px;
