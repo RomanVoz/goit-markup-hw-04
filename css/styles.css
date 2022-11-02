@@ -70,10 +70,6 @@ img {
     padding: 0 15px;
 }
 
-.section {
-    padding-bottom: 94px;
-}
-
 .logo {
     margin-right: 93px;
 
@@ -94,6 +90,9 @@ img {
     align-items: center;
 }
 
+.header-container-line {
+    border: 1px solid #ECECEC;
+}
 
 .link-header {
    padding: 0;
@@ -102,12 +101,17 @@ img {
 }
 
 .link-nav-header {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.link-nav-header:not(:last-child) {
     margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .link-nav {
+    padding: 32px 0;
+
     font-family: var(--general-font);
     font-weight: 500;
     font-size: 14px;
@@ -192,13 +196,18 @@ img {
 }
 
 .section-feature-main {
-    padding-top: 94px;    
+    padding-top: 94px;  
+    padding-bottom: 94px;  
 }
 
 .Feature {
     display: flex;
     padding: 0;
     margin: 0;
+}
+
+.feature-main {
+    max-width: 270px;
 }
 
 .feature-main:not(:last-child) {
@@ -237,6 +246,7 @@ img {
 
 .team {
     padding-top: 94px;
+    padding-bottom: 94px;
     background-color: #F5F4FA;
 }
 
@@ -253,6 +263,11 @@ img {
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+
+.work-us-main {
+    padding-bottom: 94px;
+}
+
 
 .work-us {
     display: flex;
@@ -271,8 +286,6 @@ img {
 
 .family {
     padding-top: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
     padding-bottom: 30px;
 }
 
@@ -283,6 +296,7 @@ img {
 }
 
 .people-name {
+    margin-bottom: 10px;
     text-align: center;
 
     font-family: var(--general-font);
@@ -324,19 +338,19 @@ img {
 
 .fon-footer {
     padding-top: 60px;
-    padding-bottom: 60px;
-
     background-color: var(--bg-color);
 }
 
 .contacts {
     margin: 0;
+    margin-top: 20px;
     padding: 0;
-    padding-top: 20px;
     padding-bottom: 9px;
 }
 
 .map-link {
+    padding-bottom: 9px;
+
     font-family: var(--general-font);
     font-size: 14px;
     line-height: 1.71;
@@ -345,6 +359,8 @@ img {
 }
 
 .contact-footer {
+    padding-bottom: 9px;
+
     font-family: var(--general-font);
     font-size: 14px;
     line-height: 1.71;
@@ -362,6 +378,7 @@ img {
     color: var(--text-color-general);
 }
 
+
 .filter-price {
     display: flex;
     justify-content: center;
@@ -371,7 +388,7 @@ img {
     padding-top: 94px;
 }
 
-.filter {
+.filter { 
     border: none;
     text-align: center;
     padding: 6px 22px;
