@@ -376,20 +376,26 @@ img {
     color: var(--text-color-general);
 }
 
+.project-main {
+    padding-top: 94px;
+}
+
 .filter-price {
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 
-.filter { 
+.filter:not(:last-child) {
+    margin-right: 8px;
+}
+
+.filter-button { 
     border: none;
     text-align: center;
     padding: 6px 22px;
-    margin-right: 8px;
 
     font-family: var(--general-font);
     font-weight: 500;
