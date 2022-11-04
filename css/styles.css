@@ -127,6 +127,9 @@ img {
 }
 
 .contact {
+display: flex;
+align-items: center;
+    
  color: var(--contact-color);
  font-family: var(--general-font);
  font-weight: 500;
@@ -144,14 +147,32 @@ img {
     margin-right: 40px;
 }
 
-.main-section {
-    text-align: center;
+.mail-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.phone-icon {
+    margin-right: 10px;
+    fill: currentColor;
+    align-items: center;
 }
 
 .main-block {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--bg-color);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ), url(/img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.main-section {
+    text-align: center;
 }
 
 .general-title {
@@ -211,7 +232,14 @@ img {
     margin-right: 30px;
 }
 
-.perevagy-img {
+.feature-icon-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
     margin-bottom: 30px;
 }
 
@@ -279,6 +307,8 @@ img {
 .fon-people {
     margin-right: 30px;
     background-color: var(--text-color-general);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .family {
@@ -314,14 +344,84 @@ img {
     color: var(--contact-color);
 }
 
-.our-clients {
+.social-icon-main{
     display: flex;
-    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     padding: 0;
 }
 
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    fill: #AFB1B8;
+}
+
+.social-link:hover {
+    border-radius: 50%;
+    background-color: var(--hover-color);
+}
+
+.social-link:hover .social-icon {
+    fill: var(--text-color-general);
+}
+
+.client {
+    padding: 94px 0;
+}
+
 .clients {
-    margin-right: 30px;
+    margin-bottom: 50px;
+
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+}
+
+.clients-link {
+    width: 170px;
+    height: 92px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border-color:  #2196F3;
+    color:  #2196F3;
+}
+
+.clients-icons {
+    fill: currentColor;
 }
 
 .logo-footer {
@@ -350,6 +450,10 @@ img {
     margin-bottom: 9px;
 }
 
+.social-icon-footer {
+    display: flex;
+}
+
 .map-link {
     font-family: var(--general-font);
     font-size: 14px;
@@ -366,7 +470,11 @@ img {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.go-us {
+.join {
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
     font-family: var(--general-font);
     font-weight: 700;
     font-size: 14px;
@@ -374,6 +482,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-color-general);
+}
+
+.social-icon-join {
+    display: flex;
 }
 
 .project-main {
@@ -406,8 +518,8 @@ img {
     color: var(--text-color);
 }
 
-.filter:hover,
-.filter:focus {
+.filter-button:hover,
+.filter-button:focus {
     cursor: pointer;
     font-family: var(--general-font);
     background-color: var(--hover-color);
@@ -417,6 +529,10 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color-general);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .our-work {
@@ -426,6 +542,13 @@ img {
     margin: 0;
     padding: 0;
     padding-bottom: 94px;
+}
+
+.our-work-list:hover,
+.our-work-list:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .gorup-work {
